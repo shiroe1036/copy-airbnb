@@ -54,183 +54,187 @@
     </div>
   </nav>
 
-  <div class="flex justify-around mt-4 px-5 max-w-full overflow-x-scroll">
+  <!-- Menu section btn -->
+  <div class="flex mt-4 md:justify-center px-5 max-w-full overflow-x-scroll">
     <div class="flex text-sm">
-      <button class="py-2 leading-5">
-        <span class="flex flex-col items-center">
-          <svg
-            class="inline-block w-5 h-5 mr-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            ></path>
-          </svg>
-          <div class="block relative whitespace-nowrap">
-            <span class="inline-block">Maison super</span>
-          </div>
-        </span>
-      </button>
+      <div class="flex justify-between">
+        <div class="flex mx-1">
+          <button class="py-2">
+            <span class="flex flex-col items-center">
+              <svg
+                class="inline-block w-5 h-5 mr-1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                ></path>
+              </svg>
+              <div class="block relative whitespace-nowrap">
+                <span class="inline-block">Maison super</span>
+              </div>
+            </span>
+          </button>
+        </div>
 
-      <button class="py-2 leading-5">
-        <span class="flex flex-col items-center">
-          <svg
-            class="inline-block w-5 h-5 mr-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            ></path>
-          </svg>
-          <div class="block relative whitespace-nowrap">
-            <span class="inline-block">Maison super</span>
-          </div>
-        </span>
-      </button>
+        <div class="flex mx-1">
+          <button class="py-2">
+            <span class="flex flex-col items-center">
+              <svg
+                class="inline-block w-5 h-5 mr-1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                ></path>
+              </svg>
+              <div class="block relative whitespace-nowrap">
+                <span class="inline-block">Maison super</span>
+              </div>
+            </span>
+          </button>
+        </div>
 
-      <button class="py-2 leading-5">
-        <span class="flex flex-col items-center">
-          <svg
-            class="inline-block w-5 h-5 mr-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            ></path>
-          </svg>
-          <div class="block relative whitespace-nowrap">
-            <span class="inline-block">Maison super</span>
-          </div>
-        </span>
-      </button>
+        <button class="py-2 mx-1">
+          <span class="flex flex-col items-center">
+            <svg
+              class="inline-block w-5 h-5 mr-1"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+              ></path>
+            </svg>
+            <div class="block relative whitespace-nowrap">
+              <span class="inline-block">Maison super</span>
+            </div>
+          </span>
+        </button>
 
-      <button class="py-2 leading-5">
-        <span class="flex flex-col items-center">
-          <svg
-            class="inline-block w-5 h-5 mr-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            ></path>
-          </svg>
-          <div class="block relative whitespace-nowrap">
-            <span class="inline-block">Maison super</span>
-          </div>
-        </span>
-      </button>
+        <button class="py-2 mx-1">
+          <span class="flex flex-col items-center">
+            <svg
+              class="inline-block w-5 h-5 mr-1"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+              ></path>
+            </svg>
+            <div class="block relative whitespace-nowrap">
+              <span class="inline-block">Maison super</span>
+            </div>
+          </span>
+        </button>
 
-      <button class="py-2 leading-5">
-        <span class="flex flex-col items-center">
-          <svg
-            class="inline-block w-5 h-5 mr-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            ></path>
-          </svg>
-          <div class="block relative whitespace-nowrap">
-            <span class="inline-block">Maison super</span>
-          </div>
-        </span>
-      </button>
+        <button class="py-2 mx-1">
+          <span class="flex flex-col items-center">
+            <svg
+              class="inline-block w-5 h-5 mr-1"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+              ></path>
+            </svg>
+            <div class="block relative whitespace-nowrap">
+              <span class="inline-block">Maison super</span>
+            </div>
+          </span>
+        </button>
 
-      <button class="py-2 leading-5">
-        <span class="flex flex-col items-center">
-          <svg
-            class="inline-block w-5 h-5 mr-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            ></path>
-          </svg>
-          <div class="block relative whitespace-nowrap">
-            <span class="inline-block">Maison super</span>
-          </div>
-        </span>
-      </button>
+        <button class="py-2 mx-1">
+          <span class="flex flex-col items-center">
+            <svg
+              class="inline-block w-5 h-5 mr-1"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+              ></path>
+            </svg>
+            <div class="block relative whitespace-nowrap">
+              <span class="inline-block">Maison super</span>
+            </div>
+          </span>
+        </button>
 
-      <button class="py-2 leading-5">
-        <span class="flex flex-col items-center">
-          <svg
-            class="inline-block w-5 h-5 mr-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            ></path>
-          </svg>
-          <div class="block relative whitespace-nowrap">
-            <span class="inline-block">Maison super</span>
-          </div>
-        </span>
-      </button>
-      <button class="py-2 leading-5">
-        <span class="flex flex-col items-center">
-          <svg
-            class="inline-block w-5 h-5 mr-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-            ></path>
-          </svg>
-          <div class="block relative whitespace-nowrap">
-            <span class="inline-block">Maison super</span>
-          </div>
-        </span>
-      </button>
+        <button class="py-2 mx-1">
+          <span class="flex flex-col items-center">
+            <svg
+              class="inline-block w-5 h-5 mr-1"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+              ></path>
+            </svg>
+            <div class="block relative whitespace-nowrap">
+              <span class="inline-block">Maison super</span>
+            </div>
+          </span>
+        </button>
+        <button class="py-2 mx-1">
+          <span class="flex flex-col items-center">
+            <svg
+              class="inline-block w-5 h-5 mr-1"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+              ></path>
+            </svg>
+            <div class="relative whitespace-nowrap">
+              <span class="inline-block">Maison super</span>
+            </div>
+          </span>
+        </button>
+      </div>
     </div>
-    <ol class="flex justify-between items-center content-center text-sm">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ol>
+  </div>
+  <!-- end Menu section btn -->
+
+  <div class="px-5">
+    <p class="text-sm">Classement par ordre de pertinence</p>
   </div>
 </template>
 

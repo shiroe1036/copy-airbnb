@@ -241,57 +241,111 @@
   </div>
   <!-- end Menu section btn -->
 
-  <div class="px-5">
+  <div class="px-7">
     <p class="text-sm">Classement par ordre de pertinence</p>
 
-    <div class="border-2 mt-10">
-      <div class="my-2">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="absolute sm:h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          stroke-width="2"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-          />
-        </svg>
-        <img
-          src="https://a0.muscache.com/im/pictures/4d268e76-949f-4de7-a10b-b4b48ea3355d.jpg?im_w=720"
-          class="
-            w-full
-            aspect-[4/3]
-            object-cover object-center
-            rounded-lg
-            ease-in-out
-            transform
-          "
-          alt=""
-        />
-      </div>
-      <div class="flex justify-between">
-        <p class="font-medium">Badachro, Royaume-Uni</p>
-        <p class="flex">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+    <div class="grid grid-cols-1 md:grid-cols-4 md:gap-5 my-4">
+      <div class="">
+        <div class="my-2">
+          <div className="relative h-62 w-full mb-3">
+            <div className="absolute flex flex-col top-0 right-0 p-3">
+              <button
+                className="transition ease-in duration-300 bg-gray-800 hover:text-red-400 shadow hover:shadow-md text-gray-500 rounded-full w-8 h-8 text-center p-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <img
+              className="w-full object-fill rounded-2xl"
+              src="https://a0.muscache.com/im/pictures/4d268e76-949f-4de7-a10b-b4b48ea3355d.jpg?im_w=720"
+              alt="Image de l'annonce"
             />
-          </svg>
-          4.71
-        </p>
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <p class="font-medium">Badachro, Royaume-Uni</p>
+          <p class="flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            4.71
+          </p>
+        </div>
+        <p class="font-extralight">Professionnel</p>
+        <p class="font-extralight">17-22 nov.</p>
+        <p><span class="font-medium">207 €</span> / nuit</p>
       </div>
-      <p class="font-extralight">Professionnel</p>
-      <p class="font-extralight">17-22 nov.</p>
-      <p><span class="font-medium">207 €</span> / nuit</p>
+
+      <div class="">
+        <div class="my-2">
+          <div className="relative h-62 w-full mb-3">
+            <div className="absolute flex flex-col top-0 right-0 p-3">
+              <button
+                className="transition ease-in duration-300 bg-gray-800 hover:text-red-400 shadow hover:shadow-md text-gray-500 rounded-full w-8 h-8 text-center p-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <img
+              className="w-full object-fill rounded-2xl"
+              src="https://a0.muscache.com/im/pictures/4d268e76-949f-4de7-a10b-b4b48ea3355d.jpg?im_w=720"
+              alt="Image de l'annonce"
+            />
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <p class="font-medium">Badachro, Royaume-Uni</p>
+          <p class="flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            4.71
+          </p>
+        </div>
+        <p class="font-extralight">Professionnel</p>
+        <p class="font-extralight">17-22 nov.</p>
+        <p><span class="font-medium">207 €</span> / nuit</p>
+      </div>
     </div>
   </div>
 </template>

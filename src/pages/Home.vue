@@ -52,6 +52,9 @@
         </svg>
       </i>
     </div>
+
+    <hr class="mt-4 hidden md:block" />
+    <div class="border-5"></div>
   </nav>
 
   <!-- Menu section btn -->
@@ -274,14 +277,6 @@
                     d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                   />
                 </svg>
-                <svg
-                  class="text-teal-500 fill-current h-16 w-16"
-                  viewBox="0 0 60 60"
-                >
-                  <path
-                    d="M41.05 18.44a6.6 6.6 0 00-4.84-2.29c-3.66-.06-6.62 3.04-6.62 6.91 0 .55.05 1.09.17 1.6a18.68 18.68 0 01-13.66-7.55 7.33 7.33 0 00-.9 3.55 7.3 7.3 0 002.95 5.92 6.34 6.34 0 01-3-.92v.1c0 3.42 2.28 6.3 5.31 6.97a6.24 6.24 0 01-3 .1 6.74 6.74 0 006.2 4.93 12.8 12.8 0 01-9.81 2.9A17.89 17.89 0 0024 43.85c12.19 0 18.86-10.61 18.86-19.81l-.02-.9c1.3-.97 2.42-2.18 3.3-3.56-1.18.54-2.46.9-3.8 1.04a6.8 6.8 0 002.91-3.8c-1.28.77-2.7 1.33-4.2 1.62z"
-                  />
-                </svg>
               </button>
             </div>
             <img
@@ -564,6 +559,70 @@
         <p><span class="font-medium">207 €</span> / nuit</p>
       </div>
     </div>
+  </div>
+
+  <!-- component -->
+  <div class="fixed bottom-0 bg-blue-400 w-full py-5">
+    <button class="py-2 mx-3">
+      <span class="flex flex-col items-center">
+        <svg
+          class="inline-block w-5 h-5 mr-1"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+          ></path>
+        </svg>
+        <div class="block relative whitespace-nowrap">
+          <span class="inline-block">Explorer</span>
+        </div>
+      </span>
+    </button>
+    <button class="py-2 mx-3">
+      <span class="flex flex-col items-center">
+        <svg
+          class="inline-block w-5 h-5 mr-1"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+          ></path>
+        </svg>
+        <div class="block relative whitespace-nowrap">
+          <span class="inline-block">Favoris</span>
+        </div>
+      </span>
+    </button>
+    <button class="py-2 mx-3">
+      <span class="flex flex-col items-center">
+        <svg
+          class="inline-block w-5 h-5 mr-1"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+          ></path>
+        </svg>
+        <div class="block relative whitespace-nowrap">
+          <span class="inline-block">Connexion</span>
+        </div>
+      </span>
+    </button>
   </div>
 </template>
 

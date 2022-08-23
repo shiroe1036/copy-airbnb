@@ -12,6 +12,7 @@
         mt-3
         mx-4
         shadow-lg
+        animate__animated animate__backInLeft
       "
     >
       <div class="flex">
